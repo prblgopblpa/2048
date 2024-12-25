@@ -41,7 +41,7 @@ def quitWindow(event):
 
 def gameOver():
 
-    label = myfont.render("Мегаплох +слаб Увы", True, RED)
+    label = myfont.render("Увы", True, RED)
     labelRect = label.get_rect()
     labelRect.centerx = window.get_rect().centerx
     labelRect.centery = window.get_rect().centery
